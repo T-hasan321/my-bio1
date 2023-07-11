@@ -1,7 +1,23 @@
-h1 {
+.head {
     color: blue;
     background-color: aquamarine;
-    margin-bottom: 5%;
     text-align: center;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 150px 150px 150px;
+    gap: 20px 20px;
+    justify-content: center;
+}
+
+.grid1 {
+    background-color: bisque;
+    text-align: center;
+    padding: 5% 5%;
+}
